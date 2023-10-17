@@ -1,0 +1,39 @@
+/*  
+  --> (*) seletor univesal, estiliza todo o documento
+
+
+  -->seletor de descendência: qualquer elemento recebe a estilização independente do grau de descendência
+    li a{ 
+        color: #ff0000;
+    }
+
+ -->seletor filho: o elemnto filho recebe estilização somente do elemento pai
+
+    li > a{ 
+        color: #008000
+    }
+
+
+    --> Seletor adjacente: estiliza o elemento subsequente ao selecionado
+
+    h1 + h4{  
+        border: 4px dashed;
+    }
+
+
+    --> seletor de atributo
+
+    a[href='/recibo']{ 
+        color: #ffa500
+    }
+
+    --> Pseudo classes: estilização mais especifica para os elementos
+
+    li:only-of-type(odd){ 
+        color: #800080;
+    }
+
+*/
+li a{ 
+    color: #ff0000;
+}
