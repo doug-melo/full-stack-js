@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 1.5rem;
+    text-align: center;
+}
+main{
+    padding: 1.5rem;
+    text-align: center;
+}
+img{
+    margin-bottom: 3rem;
+}
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+p{
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.80rem;
+    padding: 1rem;
+}
