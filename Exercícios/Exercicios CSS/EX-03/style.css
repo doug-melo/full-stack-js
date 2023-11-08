@@ -21,6 +21,7 @@ h1{
 }
 h2{
     font-family: 'Merriweather', serif;
+    margin-top: 20px;
     font-weight: lighter;
     font-size: 1.2rem;
 }
@@ -28,4 +29,42 @@ p{
     font-family: 'Mukta', sans-serif;
     font-size: 0.80rem;
     padding: 1rem;
+}
+.ins{
+    background-color: #000000;
+    color: #ffffff;
+    width: 7rem;
+    height: 1,5rem;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+.blue{
+    background-color: #45a3fa;
+    color: #ffffff;
+    width: 7rem;
+    height: 1,5rem;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.black{
+    background-color: #000;
+    color: #ffffff;
+    width: 7rem;
+    height: 1,5rem;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+footer{
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    width: 100vw;
+    height: 1,5rem;
+    padding: 15px ;
 }
