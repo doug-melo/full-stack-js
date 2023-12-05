@@ -31,7 +31,7 @@ a{
 }
 
 .hero__background{
-    object-fit: cover;/* usado para definir a forma como o objeto vai se ajustar onde ele esta */
+    object-fit: cover; /* usado para definir a forma como o objeto vai se ajustar onde ele esta */
     position: absolute;
     top: 0;
     height: 100vh;
@@ -55,4 +55,10 @@ a{
     letter-spacing: 0.5rem;
     text-transform: uppercase;
 }
+
+.section{
+    padding: 0 8rem;
+    text-align: center;
+}
+
 
