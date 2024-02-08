@@ -2,32 +2,32 @@
 const idade = prompt("Informe sua idade:")
 
 /*
-desta forma o codigo fica dificil de leitura!!
+    desta forma o codigo fica dificil de leitura!!
 
 if (idade > 18){
-    alert("Você é maior de idade")
+    alert("Você é maior de idade.")
 }else{
-    alert("Você é menor de idade")
+    alert("Você é menor de idade.")
     if (idade < 12){
-        alert("Você é criança")
+        alert("Você é criança.")
         if(idade < 4){
-         alert("")
+         alert("você é bebê.")
         }
     }
 }
 */
 
 /*
-Desta forma o codigo fica mais simples para leitura.
+    Desta forma o codigo fica mais simples para leitura.
  */
 if (idade > 18){
-    alert("Você é maior de idade")
+    alert("Você é maior de idade.")
 } else if (idade > 12){
-    alert("Você é menor de idade")
+    alert("Você é menor de idade.")
 } else if(idade > 4){
-    alert("Você é criança")
+    alert("Você é criança.")
 } else{
-    alert("..")
+    alert("...")
 }
 
 /* 
